@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: taskcafe/taskcafe:latest
+    image: jon77p/taskcafe:latest
     # build: .
     ports:
       - "3333:3333"
@@ -16,7 +16,7 @@ services:
       - taskcafe-uploads:/root/uploads
       
   postgres:
-    image: postgres:12.3-alpine
+    image: postgres:latest
     restart: always
     networks:
       - taskcafe-test
