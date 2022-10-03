@@ -71,8 +71,7 @@ This will start a postgres instance as well as a taskcafe instance.
 
 The second command runs the database schema migrations.
 
-If you visit [http://localhost:3333](http://localhost:3333), you will get redirected to the installation
-screen so that you can create the first system user.
+If you visit [http://localhost:3333/register](http://localhost:3333/register), you will be prompted to create the first system user.
 
 ### From Source
 
